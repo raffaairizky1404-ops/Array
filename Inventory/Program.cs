@@ -7,4 +7,12 @@ Console.WriteLine("Inventory[2]: " + inventory[2]);
 Console.WriteLine("Inventory[3]: " + inventory[3]);
 Console.WriteLine("Inventory[4]: " + inventory[4]);
 
-Console.WriteLine($"\nTotal items: {inventory.Length}");
+string [] Inventory = {"Health Potion", "Sword", "Shield","Bread","Key"};
+
+for (int i = 0; i < Inventory.Length; i++);
+{
+    Console.WriteLine("$Slot {i}: {Inventory[i]}");
+}
+
+Console.WriteLine($"\nTotal items: {Inventory.Length}");
+
